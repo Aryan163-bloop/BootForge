@@ -1,0 +1,649 @@
+/* ==========================================
+        WHY BOOTSTRAP PAGE
+========================================== */
+/* ==========================================
+                HERO
+========================================== */
+
+.hero{
+
+    background:linear-gradient(
+        135deg,
+        #eef5ff,
+        #ffffff
+    );
+
+}
+
+.hero h1{
+
+    line-height:1.1;
+
+}
+
+.hero-card{
+
+    animation:float 5s ease-in-out infinite;
+
+}
+
+.hero table{
+
+    margin-bottom:0;
+
+}
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-15px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+/* ==========================================
+        WHAT IS BOOTSTRAP
+========================================== */
+
+.what-bootstrap{
+
+    background:#ffffff;
+
+}
+
+.bootstrap-flow{
+
+    text-align:center;
+
+}
+
+.flow-box{
+
+    background:var(--primary);
+
+    color:#fff;
+
+    padding:18px;
+
+    border-radius:12px;
+
+    font-weight:600;
+
+}
+
+.flow-plus,
+
+.flow-equals{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    margin:15px 0;
+
+    color:var(--primary);
+
+}
+
+.flow-result{
+
+    background:#198754;
+
+    color:#fff;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    font-weight:700;
+
+}
+
+.benefit-card{
+
+    background:#f8f9fa;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    height:100%;
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+
+}
+
+.benefit-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+.benefit-card i{
+
+    font-size:45px;
+
+    color:var(--primary);
+
+    margin-bottom:15px;
+
+    display:block;
+
+}
+/* ==========================================
+            WHY BOOTSTRAP
+========================================== */
+
+.why-bootstrap{
+
+    background:#f8f9fa;
+
+}
+
+.reason-card{
+
+    background:#ffffff;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    height:100%;
+
+    text-align:center;
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+
+}
+
+.reason-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+.reason-card i{
+
+    font-size:50px;
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+    display:block;
+
+}
+/* ==========================================
+        BOOTSTRAP BATTLE ARENA
+========================================== */
+
+.battle{
+
+    background:#ffffff;
+
+}
+
+.battle-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.battle-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 25px 50px rgba(0,0,0,.15);
+
+}
+
+.battle-header{
+
+    padding:18px;
+
+    text-align:center;
+
+    font-size:22px;
+
+    font-weight:600;
+
+}
+
+.battle-body{
+
+    padding:30px;
+
+}
+
+.battle-code{
+
+    background:#1e1e1e;
+
+    color:#d4d4d4;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    font-size:14px;
+
+    overflow-x:auto;
+
+    min-height:230px;
+
+    font-family:Consolas, monospace;
+
+}
+
+.plain-btn{
+
+    background:#0d6efd;
+
+    color:#fff;
+
+    padding:12px 25px;
+
+    border:none;
+
+    border-radius:8px;
+
+}
+
+.winner-box{
+
+    background:linear-gradient(
+        135deg,
+        #198754,
+        #157347
+    );
+
+    color:#fff;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    box-shadow:0 20px 45px rgba(25,135,84,.3);
+
+}
+
+.winner-box h3{
+
+    font-weight:700;
+
+}
+/* ==========================================
+            ADVANTAGES
+========================================== */
+
+.advantages{
+
+    background:#f8f9fa;
+
+}
+
+.advantage-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.advantage-item{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:25px;
+
+    background:#fff;
+
+    padding:28px;
+
+    border-radius:18px;
+
+    transition:.35s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+}
+
+.advantage-item:hover{
+
+    transform:translateX(10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+.advantage-item i{
+
+    font-size:45px;
+
+    color:var(--primary);
+
+    flex-shrink:0;
+
+}
+/* ==========================================
+            LIMITATIONS
+========================================== */
+
+.limitations{
+
+    background:#ffffff;
+
+}
+
+.limit-card{
+
+    background:#fff8e6;
+
+    border-left:6px solid #ffc107;
+
+    padding:28px;
+
+    border-radius:16px;
+
+    height:100%;
+
+    transition:.35s;
+
+}
+
+.limit-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,.10);
+
+}
+
+.limit-card i{
+
+    font-size:42px;
+
+    display:block;
+
+    margin-bottom:18px;
+
+}
+/* ==========================================
+        POPULAR COMPANIES
+========================================== */
+
+.companies{
+
+    background:#f8f9fa;
+
+}
+
+.company-card{
+
+    background:#fff;
+
+    padding:30px;
+
+    text-align:center;
+
+    border-radius:18px;
+
+    height:100%;
+
+    transition:.35s;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.company-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+.company-card i{
+
+    font-size:60px;
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+.company-highlight{
+
+    background:linear-gradient(
+        135deg,
+        #0d6efd,
+        #3b82f6
+    );
+
+    color:white;
+
+    border-radius:20px;
+
+    padding:40px;
+
+}
+/* ==========================================
+                CTA
+========================================== */
+
+.cta{
+
+    background:#0d6efd;
+
+}
+
+.cta-box{
+
+    color:white;
+
+    padding:70px 30px;
+
+    border-radius:25px;
+
+}
+
+.cta .lead{
+
+    max-width:720px;
+
+    margin:auto;
+
+    opacity:.95;
+
+}
+
+.cta .btn{
+
+    min-width:230px;
+
+    margin-bottom:15px;
+
+    border-radius:12px;
+
+}
+/* ==========================================
+                FOOTER
+========================================== */
+
+.footer a{
+
+    color:#adb5bd;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer a:hover{
+
+    color:white;
+
+}
+
+.social-icon{
+
+    width:45px;
+
+    height:45px;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#343a40;
+
+    color:white !important;
+
+    margin-right:10px;
+
+    font-size:20px;
+
+    transition:.3s;
+
+}
+
+.social-icon:hover{
+
+    background:#0d6efd;
+
+    transform:translateY(-5px);
+
+}
+/* VS Code Editor */
+
+.editor{
+
+    border-radius:16px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+.editor-top{
+
+    background:#2d2d2d;
+
+    color:#fff;
+
+    padding:12px 18px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    font-weight:600;
+
+}
+
+.editor-dots{
+
+    display:flex;
+
+    gap:8px;
+
+}
+
+.editor-dots span{
+
+    width:12px;
+
+    height:12px;
+
+    border-radius:50%;
+
+    display:block;
+
+}
+
+.red{
+
+    background:#ff5f57;
+
+}
+
+.yellow{
+
+    background:#febc2e;
+
+}
+
+.green{
+
+    background:#28c840;
+
+}
+
+.editor-body{
+
+    margin:0;
+
+    background:#1e1e1e;
+
+    color:#d4d4d4;
+
+    padding:20px;
+
+    font-family:Consolas,monospace;
+
+    min-height:260px;
+
+}
+
+.line{
+
+    color:#777;
+
+    display:inline-block;
+
+    width:30px;
+
+}
