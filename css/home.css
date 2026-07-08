@@ -1,0 +1,461 @@
+/* ==========================================
+                HERO
+========================================== */
+
+.hero{
+
+    background:linear-gradient(
+        135deg,
+        #eef5ff 0%,
+        #ffffff 100%
+    );
+
+    overflow:hidden;
+
+}
+
+.hero h1{
+
+    line-height:1.1;
+
+}
+
+.hero p{
+
+    max-width:550px;
+
+}
+
+.hero-preview{
+
+    animation:float 5s ease-in-out infinite;
+
+}
+
+.hero-preview .card{
+
+    border-radius:20px;
+
+}
+
+.hero .badge{
+
+    font-size:15px;
+
+}
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-15px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+/* ==========================================
+            WHY BOOTFORGE
+========================================== */
+
+.why{
+
+    background:#ffffff;
+
+}
+
+.why-card{
+
+    border-radius:20px;
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+.why-icon{
+
+    font-size:55px;
+
+    color:var(--primary);
+
+}
+/* ==========================================
+                STATISTICS
+========================================== */
+
+.stats{
+
+    background:#0d6efd;
+
+    color:white;
+
+}
+
+.stat-box{
+
+    padding:20px;
+
+}
+
+.stat-icon{
+
+    font-size:45px;
+
+    margin-bottom:15px;
+
+}
+
+.stat-box h2{
+
+    margin-bottom:10px;
+
+}
+/* ==========================================
+        FEATURED COMPONENTS
+========================================== */
+
+.components{
+
+    background:#f8f9fa;
+
+}
+
+.component-card{
+
+    border-radius:20px;
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+
+}
+
+.component-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 45px rgba(0,0,0,.15);
+
+}
+
+.component-icon{
+
+    font-size:60px;
+
+    color:var(--primary);
+
+}
+/* ==========================================
+        PLAYGROUND PREVIEW
+========================================== */
+
+.playground{
+
+    background:#ffffff;
+
+}
+
+.playground-window{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.window-header{
+
+    background:#2b2b2b;
+
+    padding:14px 18px;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.window-title{
+
+    color:#ffffff;
+
+    margin-left:12px;
+
+    font-size:14px;
+
+    font-weight:500;
+
+}
+
+.dot{
+
+    width:12px;
+
+    height:12px;
+
+    border-radius:50%;
+
+    margin-right:6px;
+
+}
+
+.red{
+
+    background:#ff5f57;
+
+}
+
+.yellow{
+
+    background:#febc2e;
+
+}
+
+.green{
+
+    background:#28c840;
+
+}
+
+.window-body{
+
+    padding:25px;
+
+}
+
+.preview-box{
+
+    background:var(--primary);
+
+    color:white;
+
+    text-align:center;
+
+    padding:18px 0;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+}
+
+.code-preview{
+
+    background:#1e1e1e;
+
+    color:#d4d4d4;
+
+    border-radius:10px;
+
+    padding:18px;
+
+    font-size:14px;
+
+    overflow-x:auto;
+
+    font-family:Consolas, Monaco, monospace;
+
+}
+
+.playground .list-group-item{
+
+    border:none;
+
+    padding-left:0;
+
+    background:transparent;
+
+}
+
+.playground .btn{
+
+    border-radius:12px;
+
+}
+/* ==========================================
+            LEARNING ROADMAP
+========================================== */
+
+.roadmap-card{
+
+    border-radius:20px;
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+
+    position:relative;
+
+}
+
+.roadmap-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 45px rgba(0,0,0,.15);
+
+}
+
+.roadmap-number{
+
+    position:absolute;
+
+    top:20px;
+
+    right:20px;
+
+    font-size:32px;
+
+    font-weight:700;
+
+    color:#dee2e6;
+
+}
+
+.roadmap-icon{
+
+    font-size:55px;
+
+    color:var(--primary);
+
+}
+/* ==========================================
+            TESTIMONIALS
+========================================== */
+
+.testimonials{
+
+    background:#ffffff;
+
+}
+
+.testimonial-card{
+
+    border-radius:20px;
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+
+}
+
+.testimonial-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 45px rgba(0,0,0,.15);
+
+}
+/* ==========================================
+                CTA
+========================================== */
+
+.cta{
+
+    background:#0d6efd;
+
+}
+
+.cta-box{
+
+    color:white;
+
+    padding:70px 30px;
+
+    border-radius:25px;
+
+}
+
+.cta .lead{
+
+    max-width:700px;
+
+    margin:auto;
+
+    opacity:.95;
+
+}
+
+.cta .btn{
+
+    min-width:220px;
+
+    margin-bottom:15px;
+
+}
+/* ==========================================
+                FOOTER
+========================================== */
+
+.footer a{
+
+    color:#adb5bd;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer a:hover{
+
+    color:white;
+
+}
+
+.social-icon{
+
+    width:45px;
+
+    height:45px;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#343a40;
+
+    color:white !important;
+
+    margin-right:10px;
+
+    font-size:20px;
+
+    transition:.3s;
+
+}
+
+.social-icon:hover{
+
+    background:#0d6efd;
+
+    transform:translateY(-5px);
+
+}

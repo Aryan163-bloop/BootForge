@@ -1,0 +1,94 @@
+/* ==========================================
+                ROOT
+========================================== */
+
+:root{
+
+    --primary:#0d6efd;
+
+    --dark:#212529;
+
+    --light:#f8f9fa;
+
+    --transition:.3s;
+
+}
+
+/* ==========================================
+                RESET
+========================================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+/* ==========================================
+                BODY
+========================================== */
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:var(--light);
+
+    color:var(--dark);
+
+}
+/* ==========================================
+                NAVBAR
+========================================== */
+
+.navbar{
+
+    padding:16px 0;
+
+    transition:var(--transition);
+
+}
+
+.navbar-brand{
+
+    letter-spacing:.5px;
+
+}
+
+.navbar-brand i{
+
+    margin-right:6px;
+
+}
+
+.nav-link{
+
+    margin:0 8px;
+
+    font-weight:500;
+
+    transition:var(--transition);
+
+}
+
+.nav-link:hover{
+
+    color:var(--primary)!important;
+
+}
+
+.nav-link.active{
+
+    color:var(--primary)!important;
+
+}
+
+.btn{
+
+    border-radius:10px;
+
+}
