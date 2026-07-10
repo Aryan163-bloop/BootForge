@@ -1,80 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <!-- Meta -->
-
     <meta charset="UTF-8">
-
     <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0">
-
     <!-- Title -->
-
     <title>BootForge | Learn Bootstrap Interactively</title>
-
     <!-- Bootstrap CSS -->
-
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
         rel="stylesheet">
-
     <!-- Bootstrap Icons -->
-
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
     <!-- Google Fonts -->
-
     <link
         rel="preconnect"
         href="https://fonts.googleapis.com">
-
     <link
         rel="preconnect"
         href="https://fonts.gstatic.com"
         crossorigin>
-
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-
     <!-- CSS -->
-
     <link
         rel="stylesheet"
         href="css/style.css">
-
     <link
         rel="stylesheet"
         href="css/home.css">
-
 </head>
-
 <body>
 <!-- ==========================================
                 NAVBAR
 ========================================== -->
-
 <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
-
     <div class="container">
-
         <!-- Logo -->
-
         <a class="navbar-brand fw-bold fs-3" href="index.html">
-
             <i class="bi bi-bootstrap-fill text-primary"></i>
-
             BootForge
-
         </a>
-
         <!-- Mobile Toggle -->
-
         <button
             class="navbar-toggler"
             type="button"
@@ -83,1460 +55,783 @@
             aria-controls="mainNavbar"
             aria-expanded="false"
             aria-label="Toggle navigation">
-
             <span class="navbar-toggler-icon"></span>
-
         </button>
-
         <!-- Navigation Links -->
-
         <div class="collapse navbar-collapse" id="mainNavbar">
-
             <ul class="navbar-nav mx-auto">
-
                 <li class="nav-item">
                     <a class="nav-link active" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="why-bootstrap.html">Why Bootstrap</a>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="installation.html">Installation</a>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="components.html">Components</a>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="playground.html">Playground</a>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="utilities.html">Utilities</a>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="quiz.html">Quiz</a>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
                 </li>
-
             </ul>
-
             <!-- Right Side -->
-
             <div class="d-flex align-items-center gap-2">
-
                 <button class="btn btn-outline-dark">
-
                     <i class="bi bi-moon-stars-fill"></i>
-
                 </button>
-
                 <a href="playground.html" class="btn btn-primary">
-
                     Start Learning
-
                 </a>
-
             </div>
-
         </div>
-
     </div>
-
 </nav>
 <!-- ==========================================
                 HERO
 ========================================== -->
-
 <section class="hero">
-
     <div class="container">
-
         <div class="row align-items-center min-vh-100">
-
             <!-- Left Side -->
-
             <div class="col-lg-6">
-
                 <span class="badge bg-primary px-3 py-2 mb-4">
-
                     Bootstrap 5 Interactive Learning Platform
-
                 </span>
-
                 <h1 class="display-2 fw-bold mb-4">
-
                     Learn
-
                     <span class="text-primary">
-
                         Bootstrap
-
                     </span>
-
                     by Building.
-
                 </h1>
-
                 <p class="lead text-secondary mb-4">
-
                     Interactive playgrounds,
                     real-world examples,
                     live code generation,
                     and project-based learning.
-
                 </p>
-
                 <div class="d-flex flex-wrap gap-3">
-
                     <a href="why-bootstrap.html"
                        class="btn btn-primary btn-lg">
-
                         Start Learning
-
                     </a>
-
                     <a href="components.html"
                        class="btn btn-outline-dark btn-lg">
-
                         Explore Components
-
                     </a>
-
                 </div>
-
             </div>
-
             <!-- Right Side -->
-
             <div class="col-lg-6">
-
                 <div class="hero-preview p-3">
-
                     <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
-
                         <div class="card-header bg-primary text-white fw-semibold">
-
                             <i class="bi bi-bootstrap-fill me-2"></i>
-
                             Bootstrap Live Preview
-
                         </div>
-
                         <div class="card-body">
-
                             <button class="btn btn-primary me-2 mb-2">
-
                                 Primary
-
                             </button>
-
                             <button class="btn btn-success me-2 mb-2">
-
                                 Success
-
                             </button>
-
                             <button class="btn btn-danger me-2 mb-2">
-
                                 Danger
-
                             </button>
-
                             <hr>
-
                             <div class="alert alert-success">
-
                                 Bootstrap makes development faster.
-
                             </div>
-
                             <div class="progress mt-3" style="height:10px;">
-
                                 <div
                                     class="progress-bar progress-bar-striped progress-bar-animated"
                                     style="width:90%">
-
                                     90%
-
                                 </div>
-
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 <!-- ==========================================
             WHY BOOTFORGE
 ========================================== -->
-
 <section class="why py-5">
-
     <div class="container">
-
         <!-- Heading -->
-
         <div class="text-center mb-5">
-
             <span class="badge bg-primary px-3 py-2">
-
                 Why BootForge?
-
             </span>
-
             <h2 class="display-4 fw-bold mt-3">
-
                 Learn by Building, Not by Memorizing.
-
             </h2>
-
             <p class="lead text-secondary mx-auto"
                style="max-width:700px;">
-
                 BootForge combines interactive examples,
                 real projects and live previews so you
                 understand Bootstrap instead of simply
                 remembering class names.
-
             </p>
-
         </div>
-
         <!-- Cards -->
-
         <div class="row g-4">
-
             <!-- Card 1 -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="card why-card h-100 border-0 shadow-sm">
-
                     <div class="card-body text-center">
-
                         <i class="bi bi-code-slash why-icon"></i>
-
                         <h4 class="mt-4">
-
                             Live Coding
-
                         </h4>
-
                         <p>
-
                             Watch Bootstrap components
                             come to life instantly.
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
             <!-- Card 2 -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="card why-card h-100 border-0 shadow-sm">
-
                     <div class="card-body text-center">
-
                         <i class="bi bi-eye why-icon"></i>
-
                         <h4 class="mt-4">
-
                             Visual Learning
-
                         </h4>
-
                         <p>
-
                             Understand layouts visually
                             before writing code.
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
             <!-- Card 3 -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="card why-card h-100 border-0 shadow-sm">
-
                     <div class="card-body text-center">
-
                         <i class="bi bi-folder-check why-icon"></i>
-
                         <h4 class="mt-4">
-
                             Real Projects
-
                         </h4>
-
                         <p>
-
                             Practice with projects that
                             resemble real websites.
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
             <!-- Card 4 -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="card why-card h-100 border-0 shadow-sm">
-
                     <div class="card-body text-center">
-
                         <i class="bi bi-lightning-charge why-icon"></i>
-
                         <h4 class="mt-4">
-
                             Learn Faster
-
                         </h4>
-
                         <p>
-
                             Spend more time building
                             and less time searching.
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 <!-- ==========================================
                 STATISTICS
 ========================================== -->
-
 <section class="stats py-5">
-
     <div class="container">
-
         <div class="row text-center g-4">
-
             <!-- Stat 1 -->
-
             <div class="col-6 col-lg-3">
-
                 <div class="stat-box">
-
                     <i class="bi bi-grid-3x3-gap-fill stat-icon"></i>
-
                     <h2 class="display-4 fw-bold">
-
                         35+
-
                     </h2>
-
                     <p class="mb-0">
-
                         Bootstrap Components
-
                     </p>
-
                 </div>
-
             </div>
-
             <!-- Stat 2 -->
-
             <div class="col-6 col-lg-3">
-
                 <div class="stat-box">
-
                     <i class="bi bi-code-slash stat-icon"></i>
-
                     <h2 class="display-4 fw-bold">
-
                         150+
-
                     </h2>
-
                     <p class="mb-0">
-
                         Live Examples
-
                     </p>
-
                 </div>
-
             </div>
-
             <!-- Stat 3 -->
-
             <div class="col-6 col-lg-3">
-
                 <div class="stat-box">
-
                     <i class="bi bi-controller stat-icon"></i>
-
                     <h2 class="display-4 fw-bold">
-
                         10+
-
                     </h2>
-
                     <p class="mb-0">
-
                         Interactive Builders
-
                     </p>
-
                 </div>
-
             </div>
-
             <!-- Stat 4 -->
-
             <div class="col-6 col-lg-3">
-
                 <div class="stat-box">
-
                     <i class="bi bi-phone stat-icon"></i>
-
                     <h2 class="display-4 fw-bold">
-
                         100%
-
                     </h2>
-
                     <p class="mb-0">
-
                         Responsive Design
-
                     </p>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 <!-- ==========================================
             FEATURED COMPONENTS
 ========================================== -->
-
 <section class="components py-5">
-
     <div class="container">
-
         <div class="text-center mb-5">
-
             <span class="badge bg-primary px-3 py-2">
-
                 Bootstrap Library
-
             </span>
-
             <h2 class="display-4 fw-bold mt-3">
-
                 Explore Bootstrap Components
-
             </h2>
-
             <p class="lead text-secondary">
-
                 Learn every important Bootstrap component
                 with explanations, examples and playgrounds.
-
             </p>
-
         </div>
-
         <div class="row g-4">
-
             <!-- Buttons -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="card component-card h-100 border-0 shadow-sm">
-
                     <div class="card-body text-center">
-
                         <i class="bi bi-hand-index-thumb component-icon"></i>
-
                         <h4 class="mt-4">
-
                             Buttons
-
                         </h4>
-
                         <p>
-
                             Build attractive buttons with
                             different styles and sizes.
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
             <!-- Cards -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="card component-card h-100 border-0 shadow-sm">
-
                     <div class="card-body text-center">
-
                         <i class="bi bi-card-text component-icon"></i>
-
                         <h4 class="mt-4">
-
                             Cards
-
                         </h4>
-
                         <p>
-
                             Design beautiful responsive
                             information cards.
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
             <!-- Forms -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="card component-card h-100 border-0 shadow-sm">
-
                     <div class="card-body text-center">
-
                         <i class="bi bi-ui-checks component-icon"></i>
-
                         <h4 class="mt-4">
-
                             Forms
-
                         </h4>
-
                         <p>
-
                             Create modern forms with
                             validation and layouts.
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
             <!-- Navbar -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="card component-card h-100 border-0 shadow-sm">
-
                     <div class="card-body text-center">
-
                         <i class="bi bi-menu-button-wide component-icon"></i>
-
                         <h4 class="mt-4">
-
                             Navbar
-
                         </h4>
-
                         <p>
-
                             Build responsive navigation
                             menus for every device.
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
         <div class="text-center mt-5">
-
             <a href="components.html"
-
                class="btn btn-primary btn-lg">
-
                 View All Components
-
             </a>
-
         </div>
-
     </div>
-
 </section>
 <!-- ==========================================
             PLAYGROUND PREVIEW
 ========================================== -->
-
 <section class="playground py-5">
-
     <div class="container">
-
         <div class="row align-items-center gy-5">
-
             <!-- LEFT -->
-
             <div class="col-lg-6">
-
                 <span class="badge bg-success px-3 py-2">
-
                     Interactive Playground
-
                 </span>
-
                 <h2 class="display-4 fw-bold mt-3">
-
                     Build Bootstrap
                     Components Visually
-
                 </h2>
-
                 <p class="lead text-secondary my-4">
-
                     Instead of memorizing Bootstrap classes,
                     experiment visually with layouts,
                     buttons, cards and forms while
                     BootForge generates clean Bootstrap code.
-
                 </p>
-
                 <div class="row gy-3">
-
                     <div class="col-sm-6">
-
                         <div class="d-flex align-items-center">
-
                             <i class="bi bi-check-circle-fill text-success me-2 fs-5"></i>
-
                             <span>Live Preview</span>
-
                         </div>
-
                     </div>
-
                     <div class="col-sm-6">
-
                         <div class="d-flex align-items-center">
-
                             <i class="bi bi-check-circle-fill text-success me-2 fs-5"></i>
-
                             <span>Code Generator</span>
-
                         </div>
-
                     </div>
-
                     <div class="col-sm-6">
-
                         <div class="d-flex align-items-center">
-
                             <i class="bi bi-check-circle-fill text-success me-2 fs-5"></i>
-
                             <span>Responsive Layouts</span>
-
                         </div>
-
                     </div>
-
                     <div class="col-sm-6">
-
                         <div class="d-flex align-items-center">
-
                             <i class="bi bi-check-circle-fill text-success me-2 fs-5"></i>
-
                             <span>Copy Bootstrap Code</span>
-
                         </div>
-
                     </div>
-
                 </div>
-
                 <a href="playground.html"
-
                    class="btn btn-success btn-lg mt-5">
-
                     Launch Playground
-
                     <i class="bi bi-arrow-right ms-2"></i>
-
                 </a>
-
             </div>
-
             <!-- RIGHT -->
-
             <div class="col-lg-6">
-
                 <div class="playground-window shadow-lg">
-
                     <!-- Window Header -->
-
                     <div class="window-header">
-
                         <span class="dot red"></span>
-
                         <span class="dot yellow"></span>
-
                         <span class="dot green"></span>
-
                         <span class="window-title">
-
                             BootForge Playground
-
                         </span>
-
                     </div>
-
                     <!-- Window Body -->
-
                     <div class="window-body">
-
                         <div class="mb-3">
-
                             <label class="form-label fw-semibold">
-
                                 Columns
-
                             </label>
-
                             <select class="form-select" disabled>
-
                                 <option>1 Column</option>
-
                                 <option>2 Columns</option>
-
                                 <option selected>4 Columns</option>
-
                                 <option>6 Columns</option>
-
                                 <option>12 Columns</option>
-
                             </select>
-
                         </div>
-
                         <div class="row g-2 mb-4">
-
                             <div class="col-3">
-
                                 <div class="preview-box">
-
                                     col-3
-
                                 </div>
-
                             </div>
-
                             <div class="col-3">
-
                                 <div class="preview-box">
-
                                     col-3
-
                                 </div>
-
                             </div>
-
                             <div class="col-3">
-
                                 <div class="preview-box">
-
                                     col-3
-
                                 </div>
-
                             </div>
-
                             <div class="col-3">
-
                                 <div class="preview-box">
-
                                     col-3
-
                                 </div>
-
                             </div>
-
                         </div>
-
 <pre class="code-preview"><code>&lt;div class="row"&gt;
     &lt;div class="col-3"&gt;&lt;/div&gt;
     &lt;div class="col-3"&gt;&lt;/div&gt;
     &lt;div class="col-3"&gt;&lt;/div&gt;
     &lt;div class="col-3"&gt;&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 <!-- ==========================================
             LEARNING ROADMAP
 ========================================== -->
-
 <section class="roadmap py-5 bg-light">
-
     <div class="container">
-
         <div class="text-center mb-5">
-
             <span class="badge bg-primary px-3 py-2">
-
                 Learning Path
-
             </span>
-
             <h2 class="display-4 fw-bold mt-3">
-
                 Your Bootstrap Journey
-
             </h2>
-
             <p class="lead text-secondary">
-
                 Follow a structured roadmap from beginner to
                 building real-world Bootstrap projects.
-
             </p>
-
         </div>
-
         <div class="row g-4">
-
             <!-- Step 1 -->
-
             <div class="col-md-6 col-lg-4">
-
                 <div class="card roadmap-card h-100 border-0 shadow-sm">
-
                     <div class="card-body">
-
                         <div class="roadmap-number">
-
                             01
-
                         </div>
-
                         <i class="bi bi-download roadmap-icon"></i>
-
                         <h4 class="mt-3">
-
                             Installation
-
                         </h4>
-
                         <p>
-
                             Install Bootstrap and understand
                             the project structure.
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
             <!-- Step 2 -->
 
             <div class="col-md-6 col-lg-4">
-
                 <div class="card roadmap-card h-100 border-0 shadow-sm">
-
                     <div class="card-body">
-
                         <div class="roadmap-number">
-
                             02
-
                         </div>
-
                         <i class="bi bi-grid-3x3-gap roadmap-icon"></i>
-
                         <h4 class="mt-3">
-
                             Grid System
-
                         </h4>
-
                         <p>
-
                             Build responsive layouts using
                             Bootstrap's powerful grid.
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
             <!-- Step 3 -->
-
             <div class="col-md-6 col-lg-4">
-
                 <div class="card roadmap-card h-100 border-0 shadow-sm">
-
                     <div class="card-body">
-
                         <div class="roadmap-number">
-
                             03
-
                         </div>
-
                         <i class="bi bi-window roadmap-icon"></i>
-
                         <h4 class="mt-3">
-
                             Components
-
                         </h4>
-
                         <p>
-
                             Learn Bootstrap components with
                             interactive examples.
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
             <!-- Step 4 -->
-
             <div class="col-md-6 col-lg-6">
-
                 <div class="card roadmap-card h-100 border-0 shadow-sm">
-
                     <div class="card-body">
-
                         <div class="roadmap-number">
-
                             04
-
                         </div>
-
                         <i class="bi bi-tools roadmap-icon"></i>
-
                         <h4 class="mt-3">
-
                             Utilities
-
                         </h4>
-
                         <p>
-
                             Master spacing, colors, flexbox,
                             typography and more.
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
             <!-- Step 5 -->
-
             <div class="col-md-6 col-lg-6">
-
                 <div class="card roadmap-card h-100 border-0 shadow-sm">
-
                     <div class="card-body">
-
                         <div class="roadmap-number">
-
                             05
-
                         </div>
-
                         <i class="bi bi-rocket-takeoff roadmap-icon"></i>
-
                         <h4 class="mt-3">
-
                             Real Projects
-
                         </h4>
-
                         <p>
-
                             Build complete Bootstrap websites
                             and strengthen your portfolio.
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 <!-- ==========================================
                 TESTIMONIALS
 ========================================== -->
-
 <section class="testimonials py-5">
-
     <div class="container">
-
         <div class="text-center mb-5">
-
             <span class="badge bg-warning text-dark px-3 py-2">
-
                 Testimonials
-
             </span>
-
             <h2 class="display-4 fw-bold mt-3">
-
                 Loved by Learners
-
             </h2>
-
             <p class="lead text-secondary">
-
                 Students who learned Bootstrap with BootForge.
-
             </p>
-
         </div>
-
         <div class="row g-4">
-
             <!-- Testimonial 1 -->
-
             <div class="col-lg-4">
-
                 <div class="card testimonial-card border-0 shadow-sm h-100">
-
                     <div class="card-body">
-
                         <div class="d-flex align-items-center mb-3">
-
                             <img
                                 src="https://ui-avatars.com/api/?name=John+Doe&background=0D6EFD&color=fff"
                                 class="rounded-circle me-3"
                                 width="60"
                                 height="60"
                                 alt="Avatar">
-
                             <div>
-
                                 <h5 class="mb-0">
-
                                     John Doe
-
                                 </h5>
-
                                 <small class="text-secondary">
-
                                     Frontend Student
-
                                 </small>
-
                             </div>
-
                         </div>
-
                         <div class="text-warning mb-3">
-
                             ★★★★★
-
                         </div>
-
                         <p>
-
                             "BootForge made Bootstrap much easier to
                             understand than reading documentation."
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
             <!-- Testimonial 2 -->
-
             <div class="col-lg-4">
-
                 <div class="card testimonial-card border-0 shadow-sm h-100">
-
                     <div class="card-body">
-
                         <div class="d-flex align-items-center mb-3">
-
                             <img
                                 src="https://ui-avatars.com/api/?name=Sarah+Lee&background=198754&color=fff"
                                 class="rounded-circle me-3"
                                 width="60"
                                 height="60"
                                 alt="Avatar">
-
                             <div>
-
                                 <h5 class="mb-0">
-
                                     Sarah Lee
-
                                 </h5>
-
                                 <small class="text-secondary">
-
                                     Web Developer
-
                                 </small>
-
                             </div>
-
                         </div>
-
                         <div class="text-warning mb-3">
-
                             ★★★★★
-
                         </div>
-
                         <p>
-
                             "The playground is my favorite feature.
                             Learning became much more interactive."
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
             <!-- Testimonial 3 -->
-
             <div class="col-lg-4">
-
                 <div class="card testimonial-card border-0 shadow-sm h-100">
-
                     <div class="card-body">
-
                         <div class="d-flex align-items-center mb-3">
-
                             <img
                                 src="https://ui-avatars.com/api/?name=Alex+Brown&background=DC3545&color=fff"
                                 class="rounded-circle me-3"
                                 width="60"
                                 height="60"
                                 alt="Avatar">
-
                             <div>
-
                                 <h5 class="mb-0">
-
                                     Alex Brown
-
                                 </h5>
-
                                 <small class="text-secondary">
-
                                     UI Designer
-
                                 </small>
-
                             </div>
-
                         </div>
-
                         <div class="text-warning mb-3">
-
                             ★★★★★
-
                         </div>
-
                         <p>
-
                             "Clean explanations and practical projects.
                             Highly recommended."
-
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 <!-- ==========================================
                 CALL TO ACTION
 ========================================== -->
-
 <section class="cta py-5">
-
     <div class="container">
-
         <div class="row justify-content-center">
-
             <div class="col-lg-10">
-
                 <div class="cta-box text-center">
-
                     <span class="badge bg-light text-primary px-3 py-2">
-
                         Ready to Start?
-
                     </span>
-
                     <h2 class="display-4 fw-bold mt-4">
-
                         Master Bootstrap the Practical Way
-
                     </h2>
-
                     <p class="lead mt-4">
-
                         Learn Bootstrap through real projects,
                         interactive playgrounds and visual
                         examples instead of memorizing class names.
-
                     </p>
-
                     <div class="mt-5">
-
                         <a href="playground.html"
-
                            class="btn btn-light btn-lg me-3">
-
                             <i class="bi bi-play-fill"></i>
-
                             Start Learning
-
                         </a>
-
                         <a href="components.html"
-
                            class="btn btn-outline-light btn-lg">
-
                             Explore Components
-
                         </a>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
-</section><!-- ==========================================
+</section>
+<!-- ==========================================
                     FOOTER
 ========================================== -->
-
 <footer class="footer bg-dark text-light pt-5 pb-4">
-
     <div class="container">
-
         <div class="row gy-4">
-
             <!-- Brand -->
-
             <div class="col-lg-4">
-
                 <h3 class="fw-bold">
-
                     <i class="bi bi-bootstrap-fill text-primary"></i>
-
                     BootForge
-
                 </h3>
-
                 <p class="mt-3">
-
                     Learn Bootstrap interactively through
                     real projects, live previews and
                     practical examples.
-
                 </p>
-
             </div>
-
             <!-- Quick Links -->
-
             <div class="col-6 col-lg-2">
-
                 <h5>Pages</h5>
-
                 <ul class="list-unstyled">
-
                     <li><a href="index.html">Home</a></li>
-
                     <li><a href="installation.html">Installation</a></li>
-
                     <li><a href="components.html">Components</a></li>
-
                     <li><a href="playground.html">Playground</a></li>
-
                 </ul>
-
             </div>
-
             <!-- Learning -->
-
             <div class="col-6 col-lg-2">
-
                 <h5>Learn</h5>
-
                 <ul class="list-unstyled">
-
                     <li><a href="utilities.html">Utilities</a></li>
-
                     <li><a href="quiz.html">Quiz</a></li>
-
                     <li><a href="about.html">About</a></li>
-
                 </ul>
-
             </div>
-
             <!-- Social -->
-
             <div class="col-lg-4">
-
                 <h5>Connect</h5>
-
                 <div class="mt-3">
-
                     <a href="#" class="social-icon">
-
                         <i class="bi bi-github"></i>
-
                     </a>
-
                     <a href="#" class="social-icon">
-
                         <i class="bi bi-linkedin"></i>
-
                     </a>
-
                     <a href="#" class="social-icon">
-
                         <i class="bi bi-twitter-x"></i>
-
                     </a>
-
                 </div>
-
             </div>
-
         </div>
-
         <hr class="my-4">
-
         <div class="text-center">
-
             © 2026 BootForge • Built with Bootstrap 5
-
         </div>
-
     </div>
-
 </footer>
-
-
-
-
     <!-- Bootstrap JS -->
-
     <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
     </script>
-
     <!-- JS -->
-
     <script src="js/script.js"></script>
-
 </body>
-
 </html>
