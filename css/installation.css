@@ -48,3 +48,729 @@
     color:white;
 
 }
+/* ==========================================
+            SETUP WIZARD
+========================================== */
+
+.setup{
+
+    background:#ffffff;
+
+}
+
+.wizard-container{
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.wizard-item{
+
+    display:flex;
+
+    gap:25px;
+
+    align-items:flex-start;
+
+    padding:28px;
+
+    margin-bottom:20px;
+
+    background:#fff;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.wizard-item:hover{
+
+    transform:translateX(10px);
+
+}
+
+.wizard-number{
+
+    width:60px;
+
+    height:60px;
+
+    background:#0d6efd;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    flex-shrink:0;
+
+}
+
+.complete .wizard-number{
+
+    background:#198754;
+
+}
+/* ==========================================
+        INSTALLATION METHODS
+========================================== */
+
+.methods{
+
+    background:#f8f9fa;
+
+}
+
+.method-card{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:22px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    position:relative;
+
+    height:100%;
+
+}
+
+.method-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 50px rgba(0,0,0,.15);
+
+}
+
+.recommended{
+
+    border:3px solid #0d6efd;
+
+}
+
+.recommended-tag{
+
+    position:absolute;
+
+    top:-14px;
+
+    right:20px;
+
+    background:#0d6efd;
+
+    color:white;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.method-card h3{
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+/* ==========================================
+        CDN INSTALLATION
+========================================== */
+
+.cdn-install{
+
+    background:white;
+
+}
+
+.code-window{
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+.window-top{
+
+    background:#2d2d2d;
+
+    color:white;
+
+    padding:15px 20px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.window-dots{
+
+    display:flex;
+
+    gap:8px;
+
+}
+
+.window-dots span{
+
+    width:12px;
+
+    height:12px;
+
+    border-radius:50%;
+
+}
+
+.window-body{
+
+    background:#1e1e1e;
+
+    color:#d4d4d4;
+
+    margin:0;
+
+    padding:25px;
+
+    font-family:Consolas,monospace;
+
+    overflow-x:auto;
+
+}
+
+.info-card{
+
+    background:#f8f9fa;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.step-card{
+
+    background:#f8f9fa;
+
+    padding:40px;
+
+    border-radius:20px;
+
+}
+
+.step-circle{
+
+    width:65px;
+
+    height:65px;
+
+    border-radius:50%;
+
+    background:#0d6efd;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:auto;
+
+    margin-bottom:20px;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}
+
+.success{
+
+    background:#198754;
+
+}
+
+.step-box{
+
+    transition:.35s;
+
+}
+
+.step-box:hover{
+
+    transform:translateY(-8px);
+
+}
+.copy-btn{
+
+    transition:.3s;
+
+}
+
+.copy-btn:active{
+
+    transform:scale(.95);
+
+}
+/* ==========================================
+        DOWNLOAD METHOD
+========================================== */
+
+.download-install{
+
+    background:#f8f9fa;
+
+}
+
+.download-window{
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}/* ==========================================
+            NPM METHOD
+========================================== */
+
+.npm-install{
+
+    background:#ffffff;
+
+}
+
+.terminal{
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+.terminal-top{
+
+    background:#101010;
+
+    color:white;
+
+    padding:15px 20px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.terminal-dots{
+
+    display:flex;
+
+    gap:8px;
+
+}
+
+.terminal-dots span{
+
+    width:12px;
+
+    height:12px;
+
+    border-radius:50%;
+
+}
+
+.terminal-body{
+
+    background:black;
+
+    color:#44ff44;
+
+    padding:25px;
+
+    margin:0;
+
+    font-family:Consolas, monospace;
+
+    min-height:220px;
+
+    overflow-x:auto;
+
+}
+.cursor{
+
+    animation:blink .8s infinite;
+
+}
+
+@keyframes blink{
+
+    50%{
+
+        opacity:0;
+
+    }
+
+}
+/* ==========================================
+            VS CODE SETUP
+========================================== */
+
+.vscode{
+
+    background:#f8f9fa;
+
+}
+
+.vscode-window{
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+.vscode-top{
+
+    background:#007acc;
+
+    color:white;
+
+    padding:15px 20px;
+
+    font-weight:600;
+
+}
+
+.vscode-body{
+
+    background:#1e1e1e;
+
+    color:#d4d4d4;
+
+    margin:0;
+
+    padding:30px;
+
+    font-family:Consolas, monospace;
+
+    font-size:16px;
+
+    min-height:320px;
+
+}
+.workflow-step{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.workflow-step:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.workflow-step{
+
+    font-size:35px;
+
+}
+/* ==========================================
+        FIRST PROJECT
+========================================== */
+
+.first-project{
+
+    background:white;
+
+}
+
+.project-preview{
+
+    background:#f8f9fa;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+.mini-tip{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:16px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.mini-tip:hover{
+
+    transform:translateY(-8px);
+
+}
+/* ==========================================
+            MINI CHALLENGE
+========================================== */
+
+.challenge{
+
+    background:#f8f9fa;
+
+}
+
+.challenge .card{
+
+    transition:.35s;
+
+}
+
+.challenge .card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.accordion-button{
+
+    font-weight:600;
+
+}
+/* ==========================================
+                CTA
+========================================== */
+
+.cta{
+
+    background:#0d6efd;
+
+}
+
+.cta-box{
+
+    color:white;
+
+    padding:70px 30px;
+
+    border-radius:24px;
+
+}
+
+.cta .lead{
+
+    max-width:720px;
+
+    margin:auto;
+
+    opacity:.95;
+
+}
+
+.cta .btn{
+
+    min-width:240px;
+
+    border-radius:12px;
+
+    margin-bottom:15px;
+
+}
+/* ==========================================
+                FOOTER
+========================================== */
+
+.footer a{
+
+    color:#adb5bd;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer a:hover{
+
+    color:white;
+
+}
+
+.social-icon{
+
+    width:45px;
+
+    height:45px;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#343a40;
+
+    color:white !important;
+
+    margin-right:10px;
+
+    font-size:20px;
+
+    transition:.3s;
+
+}
+
+.social-icon:hover{
+
+    background:#0d6efd;
+
+    transform:translateY(-5px);
+
+}
+/* VS Code Editor */
+
+.editor{
+
+    border-radius:16px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+.editor-top{
+
+    background:#2d2d2d;
+
+    color:#fff;
+
+    padding:12px 18px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    font-weight:600;
+
+}
+
+.editor-dots{
+
+    display:flex;
+
+    gap:8px;
+
+}
+
+.editor-dots span{
+
+    width:12px;
+
+    height:12px;
+
+    border-radius:50%;
+
+    display:block;
+
+}
+
+.red{
+
+    background:#ff5f57;
+
+}
+
+.yellow{
+
+    background:#febc2e;
+
+}
+
+.green{
+
+    background:#28c840;
+
+}
+
+.editor-body{
+
+    margin:0;
+
+    background:#1e1e1e;
+
+    color:#d4d4d4;
+
+    padding:20px;
+
+    font-family:Consolas,monospace;
+
+    min-height:260px;
+
+}
+
+.line{
+
+    color:#777;
+
+    display:inline-block;
+
+    width:30px;
+
+}
